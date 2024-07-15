@@ -34,7 +34,7 @@
 		"dropshadow"	"1"
 		"font"			"HudFontBiggerBold"
 		"xpos"			0
-		"ypos"			c100
+		"ypos"			c-100
 		"zpos"			"3"
 		"wide"			"f"
 		"tall"			"25"

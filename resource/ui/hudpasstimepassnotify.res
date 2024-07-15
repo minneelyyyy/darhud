@@ -31,11 +31,11 @@ Resource/UI/HudPasstimePassNotify.res
 	{
 		ControlName 				EditablePanel
 		fieldName 					TextBox
-		xpos 						c-150
-		ypos 						c-180
-		zpos 						1
-		wide 						300
-		tall 						56
+		xpos 						c-130
+		ypos 						r124
+		zpos 						0
+		wide 						260
+		tall 						32
 		visible 					1
 		enabled 					1
 		border						TFFatLineBorder
@@ -49,7 +49,7 @@ Resource/UI/HudPasstimePassNotify.res
 			xpos 					0
 			ypos 					0
 			zpos 					3
-			wide 					300
+			wide 					260
 			tall 					32
 			visible 				1
 			enabled 				1
@@ -65,9 +65,9 @@ Resource/UI/HudPasstimePassNotify.res
 			fieldName 				TextLockedOn
 			font 					HudFontMediumSmallBold
 			xpos 					0
-			ypos 					0
+			ypos 					-5
 			zpos 					3
-			wide 					300
+			wide 					260
 			tall 					40
 			visible 				1
 			enabled 				1
@@ -85,7 +85,7 @@ Resource/UI/HudPasstimePassNotify.res
 			xpos 					0
 			ypos 					4
 			zpos 					3
-			wide 					300
+			wide 					260
 			tall 					32
 			visible 				1
 			enabled 				1
@@ -101,12 +101,12 @@ Resource/UI/HudPasstimePassNotify.res
 			fieldName 				TextPlayerName
 			font 					HudFontSmall
 			xpos 					0
-			ypos 					40
+			ypos 					30
 			zpos 					3
-			wide 					300
+			wide 					260
 			tall 					16
-			visible 				1
-			enabled 				1
+			visible 				0
+			enabled 				0
 			textAlignment 			center
 			labelText 				"WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"
 			fgcolor_override 		"224 217 197 180"
@@ -119,11 +119,11 @@ Resource/UI/HudPasstimePassNotify.res
 		fieldName 					PassLockIndicator
 		xpos 						-8
 		ypos 						14
-		wide 						64
+		wide 						0
 		zpos 						3
-		tall 						64
-		visible 					1
-		enabled 					1
+		tall 						0
+		visible 					0
+		enabled 					0
 		scaleImage 					1
 		image 						"../passtime/hud/passtime_ball_reticle_incomingpass"
 		pin_to_sibling 				TextBox
